@@ -28,7 +28,7 @@ key = "88UF74KBRJ"
 
 def main():
     if key == "":
-        print("You need to fill out key with value from Working Copy settings.")
+       print("You need to fill out key with value from Working Copy settings.")
         quit()
     
     if not appex.is_running_extension():
